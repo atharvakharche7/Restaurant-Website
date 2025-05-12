@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    font-size:26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header{
+    width:100%;
+    background-color:#0E2A38;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo-img{
+    width:260px;
+    margin:30px;
+}
+
+/* Navigation */
+nav{
+    width:100%;
+    height:3em; /*cause em is a relative unit */
+    background-color:white;
+    font-size:35px;
+}
+
+ul{
+    height:100%;
+    display:flex;
+    justify-content:space-evenly;
+
+    list-style-type:none;
+}
+
+a{
+    width:100%;
+    height:100%;
+    padding:40px;
+    
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+
+    color:#0E2A38;
+    font-weight:normal;
+    text-transform:uppercase;
+    text-decoration:none;
+
+}
+
+/* Main */
+main{
+    width:100%;
+    height:65%;
+    background-image:url('images/restaurant.jpg');
+    background-size:cover;
+    opacity:1;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card{
+    font-size:50px;
+    color:#E8E4D3;
+    text-shadow:10px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.button{
+    padding:0;
+    margin:0;
+    width:250px;
+    height:50px;
+    font-size:26px;
+    font-weight:bold;
+    background-color:#E8E4D3;
+    color:#0E2A38;
+    border:none;
+    border-radius:10px;
+}
+
+/* Footer */
+
+footer{
+    background-color:#0e2a38;
+    color:#D9E6DC;
+    text-align:center;
+    /* border:2px solid white; */
+
+    .inlovewith{
+        width:100%;
+        padding:100px;
+        font-size:75px;
+        /* border:2px solid white; */
+    }
+    
+    .fcont1{
+        /* border:2px solid white; */
+    
+    
+        h3{
+            margin:20px;
+            text-transform:uppercase;
+            font-weight:normal;
+            
+        }
+    
+        p{
+            margin-bottom:10px;
+            font-weight:lighter;
+        }
+    }
+    
+    .fcont2{
+        /* border:2px solid red; */
+        padding:80px;
+    
+        p{
+            text-transform:uppercase;
+            font-weight:lighter;
+            margin-top:10px;    
+        }
+    }
+
+    .follow-us{
+        text-transform:uppercase;
+        padding:20px;
+    }
+
+    .socials{
+        display:flex;
+        justify-content:center;
+        padding:30px;
+        /* border:2px solid green; */
+        
+        
+
+        .socials-cont{
+            width:130px;
+            height:130px;
+            border:3px solid aliceblue;
+            border-radius:5px;
+            margin:20px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            
+            
+
+            a{
+                font-size:80px;
+                color:#E2E0DC;
+            }
+        
+        }
+           
+    }
+ 
+}
